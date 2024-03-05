@@ -1,0 +1,38 @@
+.divModalCliente input {
+    width: 100%;
+    padding: 8px 0;
+}
+
+.divModalCliente {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+
+}
+
+.tableCliente {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.divTableCliente{
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+.tableCliente>thead>tr>th {
+    font-size: .8em;
+    text-align: left;
+    color: #000000;
+}
+
+.idClienteModal {
+    width: 10%;
+}
+.nomeClienteModal {
+    width: 60%;
+}
+
+.trTableCliente:hover{
+    background-color: #fdd86e;
+}

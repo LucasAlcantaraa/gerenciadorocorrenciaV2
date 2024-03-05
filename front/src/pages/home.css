@@ -1,0 +1,122 @@
+.filtro{
+    background-color: #ffa463;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 4px;
+}
+.filtro:hover{
+    background-color: #f8c199;
+    cursor: pointer;
+}
+
+.relatorioBtn{
+    background-color: #f66b40;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 4px;
+}
+
+.relatorioBtn:hover{
+    background-color: #f7987b;
+    cursor: pointer;
+}
+
+.tableDiv{
+    box-shadow: 0px 0px 5px 1px #f5f5f5fa;
+}
+
+.tableHome{
+    width: 100%;
+}
+
+.tableHome > thead > tr > th {
+    font-size: .8em;
+    text-align: center;
+    color: #000000;
+    padding: 10px;
+}
+
+.tableHome > tbody > tr, .tableHome > thead > tr{
+    background-color:#ffefc1;
+    text-align: center;
+}
+
+.tableHome > tbody > tr:nth-child(odd) {
+    background-color:  #fff;
+}
+
+.tableHome > tbody > tr > td {
+    padding: 5px;
+}
+
+.descricaoocorrencia, .cliente{
+    width: 25%;
+}
+
+.descricaoBd, .clienteBd{
+    text-align: left;
+}
+
+.linhaOcorrencia:hover{
+    background-color: #fdd86e;
+    cursor: pointer;
+}
+
+.linhaOcorrencia:nth-child(odd):hover {
+    background-color: #fdd86e;
+    cursor: pointer;
+}
+
+.pesquisaBtn{
+    background-color: #fdd86e;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.pesquisaBtn:hover{
+    background-color: #f7e3ae;
+}
+
+.formPesquisa{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
+.formPesquisa div input, .formPesquisa div select{
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.descricaoPesquisa{
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.divRadios{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.divRadios div{
+    display: flex;
+}
+
+.searchDiv{
+    box-shadow: 0px 0px 5px 1px #d5d5d5fa;
+    padding: 20px;
+    background-color: #ffefc1;
+}
+
+.pesquisaHeader{
+    margin-bottom: 10px;
+}
+
+.pesquisaHeader span{
+    font-weight: bold;
+    font-size: 1.3rem;
+}

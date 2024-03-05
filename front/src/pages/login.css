@@ -1,0 +1,80 @@
+.tituloIcon {
+    position: absolute;
+    top: 21%;
+    font-size: 3rem;
+    transform: translateY(-55%);
+    background-color: #ffefc1;
+    border-radius: 50%;
+    padding: 8px;
+}
+.tituloLogin {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.loginPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Isso faz com que o loginPage ocupe toda a altura da tela */
+    background-color: rgb(246, 106, 64);
+}
+
+.loginContent{
+    background-color:#ffa463;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 330px;
+    width: 300px;
+    border-radius: 8%;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px #8d440044;
+}
+
+.loginContent input{
+  margin: 10px 0;
+  padding: 15px 40px 15px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: #ffefc1;
+}
+
+.loginInputs{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.loginIcon {
+    position: absolute; 
+    top: 50%; 
+    transform: translateY(-50%);
+    left: 10px
+}
+
+.primaryBtn {
+    padding:  15px 105px;
+    background-color: #ffefc1;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.primaryBtn:hover {
+    background-color: #fff0c1a9;
+}
+
+.criarConta {
+    margin-top: 20px;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.criarConta:hover {
+    color: #cfcfcf;
+    cursor: pointer;
+}

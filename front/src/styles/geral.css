@@ -1,0 +1,121 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.App {
+    display: flex;
+    height: fit-content;
+}
+
+.content {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.relative {
+    position: relative;
+}
+
+@media screen and (min-width:1025px) {
+    .content {
+        height: 115vh;
+    }
+}
+
+.cabecalho {
+    display: flex;
+    padding: 10px 0;
+    gap: 10px;
+}
+
+.submitDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 40px;
+}
+
+.submitBtn {
+    min-width: 250px;
+    padding: 12px;
+    background-color: #fb6066;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.submitBtn:hover {
+    background-color: #f39c9f;
+}
+
+.mainBtn {
+    background-color: #fb6066;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 9px;
+    min-width: 100px;
+    cursor: pointer;
+}
+
+.mainBtn:hover {
+    background-color: #f08b8e;
+}
+
+.auxBtn {
+    background-color: #ffa463;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 10px;
+    padding: 8px;
+    min-width: 100px;
+    cursor: pointer;
+}
+
+.auxBtn:hover {
+    background-color: #ffc79f;
+}
+
+.secondBtn {
+    background-color: #f66b40;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 12px;
+    min-width: 250px;
+    cursor: pointer;
+}
+
+.secondBtn:hover {
+    background-color: #f8a58c;
+}
+
+.semSublinhado {
+    text-decoration: none;
+}
+
+.flex{
+    display: flex;
+    align-items: center ;
+    gap: 4px;
+}
+
+.spaceBetween{
+    justify-content: space-between;
+}
+
+.flexColumn{
+    display: flex;
+    flex-direction: column;
+}
+
+.mensagemErro{
+    padding: 5px 0;
+    color: #fb6066;
+}

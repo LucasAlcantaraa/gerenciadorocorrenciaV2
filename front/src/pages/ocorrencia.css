@@ -1,0 +1,44 @@
+.divOcorrencia{
+    box-shadow: 0px 0px 5px 1px #d5d5d5fa;
+    padding: 20px;
+    background-color: #ffefc1;
+}
+
+.formOcorrencia {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5px 40px;
+}
+
+.formOcorrencia div {
+    display: flex;
+    flex-direction: column;
+}
+
+.formOcorrencia div input, .formOcorrencia div textarea, .formOcorrencia div select{
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.formOcorrencia div textarea{
+    resize: none;
+}
+
+.clienteOcorrencia{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.descricaoOcorrencia{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.searchIcon{
+    position: absolute; 
+    top: 67%; 
+    transform: translateY(-50%);
+    right: 10px;
+    cursor: pointer;
+}

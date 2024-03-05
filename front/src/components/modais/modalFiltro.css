@@ -1,0 +1,42 @@
+.divCamposFiltros,
+.divCamposAgrupamento {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.divFiltros div {
+    margin-bottom: 5px;
+}
+
+.filtroHeader {
+    margin-bottom: 10px;
+}
+
+.filtroHeader span {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.divCamposAgrupamento div {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.divCamposAgrupamento div select {
+    padding: 3px;
+    border-radius: 6px;
+}
+
+.divConfirmarFiltro{
+    display: flex;
+    justify-content:center;
+}
+
+@media screen and (max-width:695px) {
+    .divCamposFiltros,
+    .divCamposAgrupamento {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}

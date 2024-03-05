@@ -1,0 +1,28 @@
+.divModalRelatorio {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.divNomeArquivo {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.divNomeArquivo input {
+    padding: 6px;
+    width: 200px;
+    border-radius: 4px;
+    border: none;
+    outline: 2px solid;
+}
+
+.divRelatorioBtn {
+    text-align: center;
+}
+
+.divIncluirProcedimento {
+    display: flex;
+    align-items: center;
+}
